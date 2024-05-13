@@ -1,0 +1,12 @@
+.loader-container{
+    height: 98vh;
+    width:98vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+}
+.loader{
+    position: absolute;
+    
+}

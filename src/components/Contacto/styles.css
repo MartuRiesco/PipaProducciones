@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'helvatica-it';
+    src: url('../../fonts/Helvetica-Oblique.ttf');
+}
+
+.texto{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 31px;
+text-align: start;}
+.container-contacto{
+    max-width: 90%;
+    margin: auto;
+   
+    
+}
+.titulo-contacto{
+    color: white;
+    align-items: center;
+}
+.contacto-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 2em 0;
+    gap: 40px;
+  
+}
+.contacto-content >div{
+    width: 50%;
+}
+.informacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.informacion-contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.hr4 {
+    margin: 50px 0;
+    text-align: left;
+    width: 20px;
+    color: white;
+}
+
+.descripcion-contacto{
+    text-align: left;
+    font-family: 'helvatica-it';
+    font-weight: 100;
+    margin-top: 20px;
+    color: white;
+}
+.iconos-informacion {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.icon {
+    margin-right: 30px;
+    width: 20px;
+    color: white;
+    height: 20px;
+}
+
+.ubicacion-contacto {
+    margin-top: 20px;
+}
+.direccion-contacto
+{ text-align: left;
+font-family: 'helvatica';
+font-weight: 600;
+margin: 10px 0 10px 0
+} 
+.info-redes{
+    color: white;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .form {
+        display: flex;
+        align-content: center;
+        align-items: center;
+        justify-content: center;}
+    .contacto-content{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .contacto-content >div{
+        width: 100%;
+    }
+    .texto{
+        font-size: 25px;
+       line-height: 1.5;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .contacto-content{
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .contacto-content >div{
+        width: 100%;
+    }
+    .texto{
+        font-size: 15px;
+       line-height: 1.5;
+    }
+    .titulo-contacto{
+        font-size: 30px;
+    }
+}

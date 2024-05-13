@@ -1,0 +1,138 @@
+@font-face {
+    font-family: 'helvatica-light';
+    src: url('../../fonts/helvetica-light-587ebe5a59211.ttf');
+}
+@font-face {
+    font-family: 'helvatica-bolder';
+    src: url('../../fonts/helvetica-rounded-bold-5871d05ead8de.otf');
+}
+.work-item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 70px 0;
+    flex-direction: column;
+    background-color:#fe7676;
+}
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+.work-container {
+    position: relative;}
+
+.work-info-list {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    align-items: start;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   left: 10%;
+   text-shadow: 2px 2px 5px black;
+}
+
+.work-item .work-image {
+    border-radius: 50px 50px 20px 20px;
+    transition: .5s
+}
+
+ .work-image {
+   width: 70vw;
+    height: 500px;
+}
+
+.work-item .work-image:hover {
+    filter: drop-shadow(0 24px 14px rgba(0, 0, 0, .25))
+}
+
+.title-work-list {
+    font-weight: 700;
+    width: fit-content;
+    
+    font-size: 50px;
+    line-height: 1.3em;
+    font-family: 'helvatica-bold';
+    color: white;
+    margin: 10px 5px 10px 0px;
+    
+}
+.title-work{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.subtitle-work-list {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 15px;
+    margin-top: 10px;
+    font-family: 'helvatica-it';
+    color: white;
+}
+.flecha-proy{
+    height: 40px;
+    width: 40px;
+    color: white;
+    margin: 5px 0 0 5px;
+   filter: drop-shadow(2px 2px 4px black);
+}
+.button-work{
+    background-color: black;
+    color: white;
+    font-family: 'helvatica-bolder';
+    position: relative
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .work-image{
+        overflow: hidden;
+        height: auto;
+    }
+    .work-info-list{
+        align-items: start;
+    }
+    .title-work-list{
+        font-size: 30px;
+        margin: 10px 5px 10px 0;
+    }
+    .flecha-proy{
+        height: 20px;
+        width: 20px;
+        margin: 0 0 0 5px;
+    }
+    .subtitle-work-list{
+        font-size: 10px;
+        margin: 0;
+        text-shadow: 2px 2px 2px black
+    }
+}
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .work-image{
+        overflow: hidden;
+        height: auto;
+    }
+    .work-info-list{
+        align-items: start;
+    }
+    .title-work-list{
+        font-size: 20px;
+        margin: 10px 5px 10px 0;
+    }
+    .flecha-proy{
+        height: 20px;
+        width: 20px;
+        margin: 0 0 0 5px;
+    }
+    .subtitle-work-list{
+        font-size: 10px;
+        margin: 0;
+        text-shadow: 2px 2px 2px black
+    }
+.button-work{
+    font-size: 10px;
+}
+}
+  

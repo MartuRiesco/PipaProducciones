@@ -1,0 +1,33 @@
+.texto{
+    background-color: black;
+    color: white;
+}
+.texto-title{
+color: white;
+font-family: 'helvatica-bold'
+}
+
+.css-1ri6ub7-MuiPaper-root-MuiCard-root {
+    background-color: black !important;
+    border-radius: 50px;
+    max-width: max-content;
+  
+}
+.css-46bh2p-MuiCardContent-root{
+    background-color: black;
+}
+.css-o69gx8-MuiCardMedia-root{
+    height: 20vh;
+    background-color: black;
+    border-radius: 25px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .css-o69gx8-MuiCardMedia-root{
+        height: 13vh;
+    }
+    .card{
+        padding: 0.5em
+    }
+    
+  }

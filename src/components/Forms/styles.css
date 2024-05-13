@@ -1,0 +1,94 @@
+.formulario{
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 5px 45px 5px 45px;
+    padding: 30px;
+    height: fit-content;
+}
+.forma {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+
+.form-seccion {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.form-label {
+    text-align: left;
+    color: black;
+    font-size: small;
+    font-weight: 100;
+    font-family: 'helvatica-bold'
+}
+
+.form-input {
+    text-align: left;
+    color: black;
+    width: 80%;
+   
+    border: black;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    background-color: transparent;
+    margin: 15px 0;
+}
+
+.error {
+    margin-left: 50px;
+    color: rgb(219, 37, 37);
+    font-family: 'helvatica-bold';
+}
+
+.form-button {
+    width: 100px;
+    height: 40px;
+    border: solid;
+    color: black;
+    background-color: transparent;
+    border-color: black;
+    border-width: 2px;
+    padding-top: 5px;
+    font-size: 12px;
+}
+
+.textarea {
+    height: 150px;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .formulario {
+       width: 70%;
+       align-items: center;
+    
+    }
+    .form-input{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .form-label{
+        font-size: 16px;
+    }
+
+    .forma {
+        max-width: 100%;
+        
+    }
+.textarea{
+    padding: 10px;
+}
+    .form-input {
+        max-width: 100%;
+        width: 90%;
+    }
+    
+}
