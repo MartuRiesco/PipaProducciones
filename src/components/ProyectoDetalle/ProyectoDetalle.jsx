@@ -24,10 +24,7 @@ function ProyectoDetalle() {
     <div className='work-details' style={{backgroundColor: `#${colorFondo}`}}>
      <h1 className='title-work-details'>{datos[0]?.title}</h1> 
 <iframe src={datos[0]?.src} frameborder="0" allowFullScreen className='iframe-proyectos'></iframe>
-<div className='desc'>
-  <h3 className='our-work-detail'>{datos[0]?.work}</h3>
-  <p className='description-work-details'>{datos[0]?.description}</p>
-</div></div>
+</div>
   )
 }
 

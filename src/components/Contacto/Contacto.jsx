@@ -20,22 +20,21 @@ function Contacto() {
 
           <div className='iconos-contacto'>
             <div className='iconos-informacion'>
-            <FiMapPin className='icon'/>
+           <a href="https://wa.me/1158702442"> <BsWhatsapp className='icon'/></a>
             <h4 className='direccion-contacto'>
-            Iberá 2599 Piso 8
+            <span className='nombre'>Pablo Arias </span>: +5491158702442
             </h4>
             </div>
             <div className='iconos-informacion'>
-            <BsWhatsapp className='icon'/>
+           <a href="https://wa.me/1161125239"> <BsWhatsapp className='icon'/></a>
             <h4 className='direccion-contacto'>
-            +54911 4034-7047
+            <span className='nombre'>Santiago García Sánchez</span>: +5491161125239
             </h4>
-
             </div>
             <div className='iconos-informacion'>
-            <BsWhatsapp className='icon'/>
+           <a href="https://wa.me/1137883866"> <BsWhatsapp className='icon'/></a>
             <h4 className='direccion-contacto'>
-            +54911 4542-2848
+            <span className='nombre'>Juan Escolar </span>: +5491137883866
             </h4>
             </div>
             </div>

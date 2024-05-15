@@ -2,7 +2,9 @@
     font-family: 'helvatica-it';
     src: url('../../fonts/Helvetica-Oblique.ttf');
 }
-
+.nombre{
+    font-family: 'helvatica-bolder';
+}
 .texto{
     font-weight: 400;
     font-size: 20px;
