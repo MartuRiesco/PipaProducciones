@@ -27,7 +27,9 @@ nav {
     justify-content: space-between;
     cursor: pointer;
 }
-
+.burger-menu-hover{
+    cursor: pointer;
+}
 .burger-bar {
     width: 3em;
     height: 0.3em;

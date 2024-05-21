@@ -58,7 +58,7 @@ const  Menu= () => {
 
     return(
         <div >
-            <nav>
+            <nav className="burguer-menu-hover">
                 <div className="burger-menu" onClick={updateMenu}>
                     <div className={burger_class} ></div>
                     <div className={burger_class} ></div>
