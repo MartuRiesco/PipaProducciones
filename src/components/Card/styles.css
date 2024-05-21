@@ -32,7 +32,7 @@ font-family: 'helvatica-bold'
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
     .css-o69gx8-MuiCardMedia-root{
-        height: 13vh;
+        height: 11vh;
     }
     .card{
         padding: 0.5em
