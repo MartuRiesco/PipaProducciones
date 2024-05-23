@@ -33,6 +33,23 @@ Para la construcción de nuestra página web hemos utilizado las siguientes tecn
 
 Si tienes alguna pregunta o deseas saber más sobre nuestros servicios, no dudes en contactarnos a través de nuestro formulario en la sección de contacto de la página web.
 
+## 🤝 Contribuciones
+
+¡Estamos abiertos a contribuciones! Si deseas colaborar con nuestro proyecto, por favor sigue estos pasos:
+
+1. Haz un fork del repositorio.
+2. Crea una rama nueva (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza los cambios necesarios y haz commit (`git commit -m 'Agrega nueva funcionalidad'`).
+4. Sube los cambios a tu repositorio (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request en nuestro repositorio.
+
+## 📝 Licencia
+
+Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+
+---
+
+
 ## 📂 Estructura del Repositorio
 
 ```plaintext
@@ -49,20 +66,5 @@ Si tienes alguna pregunta o deseas saber más sobre nuestros servicios, no dudes
 └── README.md            # Este archivo
 
 
-## 🤝 Contribuciones
-
-¡Estamos abiertos a contribuciones! Si deseas colaborar con nuestro proyecto, por favor sigue estos pasos:
-
-1. Haz un fork del repositorio.
-2. Crea una rama nueva (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza los cambios necesarios y haz commit (`git commit -m 'Agrega nueva funcionalidad'`).
-4. Sube los cambios a tu repositorio (`git push origin feature/nueva-funcionalidad`).
-5. Abre un Pull Request en nuestro repositorio.
-
-## 📝 Licencia
-
-Este proyecto está bajo la Licencia MIT. Consulta el archivo `LICENSE` para más detalles.
-
----
 
 ¡Gracias por visitar Pipa Producciones! 🎥✨
