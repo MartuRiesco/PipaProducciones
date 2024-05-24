@@ -85,5 +85,9 @@ margin: 7px;
     .desc{
         margin: 10px;
     }
+    .back-arrow{
+        height: 25px;
+        width: 25px;
+    }
     }
       
