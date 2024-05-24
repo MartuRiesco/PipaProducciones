@@ -8,7 +8,7 @@ function Home() {
         <React.Fragment>      
       <div className='vid'>
         <video loop autoPlay  playsInline muted className='video'>
-          <source src="https://frigorificomartelli.com/wp-content/uploads/2024/05/PipaReel-720.mp4" type="video/mp4" />
+          <source src="https://frigorificomartelli.com/wp-content/uploads/2024/05/PipaReel-720-1.mp4" type="video/mp4" />
           </video>
         </div>
     </React.Fragment>

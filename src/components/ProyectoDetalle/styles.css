@@ -2,6 +2,19 @@
     font-family: 'helvatica-blaxk';
     src: url(../../fonts/);
 }
+.back-arrow-container{
+    display: block;
+    width: fit-content;
+    left: 0;
+    position: absolute;
+    margin: 25px;
+}
+.back-arrow{
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    color: black;
+}
 .work-details {
     height: 100%;
     display: flex;
