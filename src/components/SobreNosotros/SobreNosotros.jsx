@@ -7,15 +7,16 @@ function SobreNosotros() {
 const [responsive, isResponsive] = useState(false)
 const items= [
   {
-    text:"Nos especializamos en la creación de comerciales que no solo promocionan productos, sino que también cuentan historias memorables. Desde la concepción de conceptos frescos hasta la ejecución impecable,  nos comprometemos a llevar tu mensaje al siguiente nivel y garantizar que se destaque en un mercado saturado " ,
+    text:"Creamos contenidos que no sólo promocionan productos, sino que también narran historias memorables. Buscamos conceptos frescos y ofrecemos una ejecución impecable. Con estas premisas de trabajo nos comprometemos a llevar tu mensaje al siguiente nivel."
+,
       img:'https://i.imgur.com/V7FN1bj.jpg'    
   },{
-    text:"En Pipa Producciones, reconocemos la singularidad de cada proyecto publicitario y la importancia de brindar una atención especializada. Trabajamos en estrecha colaboración contigo para comprender tus objetivos comerciales y luego desarrollar estrategias creativas que conecten de manera auténtica y efectiva con tu audiencia.",
+    text:"En Pipa Producciones, reconocemos la singularidad de cada proyecto publicitario y la importancia de brindar un servicio especializado. Trabajamos en estrecha colaboración con nuestros clientes para comprender sus objetivos comerciales y poder desarrollar estrategias creativas que conecten de manera efectiva con sus destinatarios.",
     img:'https://i.imgur.com/ApHMiII.jpg'
   },
   {
-    text: "En Pipa Producciones, no solo creamos contenido, sino que también creamos experiencias que dejan huella. Confía en nosotros para llevar tus ideas publicitarias al siguiente nivel y hacer que tu marca brille en un mundo cada vez más visual y competitivo.",
-    img:'/foto-png.png'
+    text: "En Pipa Producciones, no solo creamos contenido, sino que también creamos experiencias que dejan huella y que harán que tu marca brille en un mundo cada vez más visual y competitivo.",
+    img:'https://i.imgur.com/exz9lcW.jpg'
   }
 ]
 function esMobile(){
@@ -49,9 +50,7 @@ if(isMobile){
     <div>
     <div className='sobrenos-container'>
         <p className='texto-sobrenos'>
-        Bienvenidos a Pipa Producciones, un centro de creatividad donde las ideas publicitarias se convierten en realidad. 
-Conformada por un equipo de tres experimentados productores - Juan Escolar, Santiago García Sánchez y Pablo Arias -, 
-Pipa Producciones fusiona la riqueza de la experiencia con la innovación para ofrecer el más alto nivel de servicio en el mundo de la publicidad.
+        Bienvenidos a Pipa Producciones, somos productores de contenidos, hacemos que las ideas publicitarias se conviertan en realidad.  En Pipa Producciones contamos con profesionales experimentados tanto en grandes producciones de la industria publicitaria tradicional, como con profesionales empapados en lo último en innovaciones tecnológicas, para poder ofrecer el más alto nivel de servicio de producción.
         </p>
         <IoIosArrowDown className='flecha'/>
       </div>
